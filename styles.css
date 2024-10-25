@@ -1,0 +1,60 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 50;
+    background-color: #00A8E8;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+    position: relative;
+}
+
+.logo {
+    width: 300px;
+    position: static;
+    border-radius: 50px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-top: 60px;
+    /* Space between logo and title */
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 70px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    width: 90%;
+    padding: 10px;
+    border: 90px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #4CAF50;
+}
+
+.terms {
+    font-size: 0.8em;
+}
